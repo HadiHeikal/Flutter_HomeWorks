@@ -1,0 +1,8 @@
+Given this code, identify any errors and explain why they occur: 
+
+--> dart void main() { String name = "Alice"; name = 123; print(name); }
+    1- main function doesn't start with keyword (dart)
+    2- name = 123; : Compilation error (statically data type) (we can't change the value of the variable)
+
+
+
